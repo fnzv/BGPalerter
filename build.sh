@@ -19,5 +19,7 @@ yarn
 
 ./node_modules/.bin/pkg . --targets node10-macos-x64 --output ../bin/bgpalerter-macos-x64
 
+./node_modules/.bin/pkg . --targets node10-freebsd-x64 --output ../bin/bgpalerter-freebsd-x64
+
 cd ../
 rm -rf build
